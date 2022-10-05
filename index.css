@@ -1,0 +1,210 @@
+body{
+    text-align: center;
+    background-image: url(arc/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: blanchedalmond;
+}
+h1{
+    font-family: Calibri;
+    font-size: 50px;
+}
+button{
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 100px;
+    width: 200px;
+}
+button:focus{
+    outline: 0;
+}
+#h{
+    border-color: gray;
+    transition: box-shadow 0.2s ease-in-out;
+    background-image: url(arc/historia.png);
+    background-size: cover;
+}
+#h:hover{
+    background-image: url(arc/historia2.png);
+    background-size: cover;
+    box-shadow: 0 0 40px black inset;
+}
+#u{
+    border-color: gray;
+    transition: box-shadow 0.2s ease-in-out;
+    background-image: url(arc/ubi.png);
+    background-size: cover;
+}
+#u:hover{
+    background-image: url(arc/ubi2.png);
+    background-size: cover;
+    box-shadow: 0 0 40px black inset;
+}
+#c{
+    border-color: gray;
+    transition: box-shadow 0.2s ease-in-out;
+    background-image: url(arc/cre.jpg);
+    background-size: cover;
+}
+#c:hover{
+    background-image: url(arc/cre2.jpg);
+    background-size: cover;
+    box-shadow: 0 0 40px black inset;
+}
+#t{
+    border-color: gray;
+    transition: box-shadow 0.2s ease-in-out;
+    background-image: url(arc/tra1.png);
+    background-size: cover;
+}
+#t:hover{
+    background-image: url(arc/c2.png);
+    background-size: cover;
+    box-shadow: 0 0 40px black inset;
+}
+.texto1{
+    font-family: Lucida Sans;
+    font-size: 30px;
+    background-color: rgba(0, 255, 255, 0.596);
+    color: rgb(54, 61, 61);
+}
+#s{
+    border-color: gray;
+    transition: box-shadow 0.2s ease-in-out;
+    background-image: url(arc/s1.png);
+    background-size: cover;
+}
+#s:hover{
+    background-image: url(arc/s2.png);
+    background-size: cover;
+    
+    box-shadow: 0 0 40px black inset;
+}
+#co{
+    border-color: gray;
+    transition: box-shadow 0.2s ease-in-out;
+    background-image: url(arc/c1.png);
+    background-size: cover;
+}
+#co:hover{
+    background-size: cover;
+    background-image: url(arc/tra2.png);
+    box-shadow: 0 0 40px black inset;
+}
+#l{
+    border-color: gray;
+    transition: box-shadow 0.2s ease-in-out;
+    background-image: url(arc/c1.png);
+    background-size: cover;
+}
+#l:hover{
+    background-image: url(arc/c2.png);
+    background-size: cover;
+    
+    box-shadow: 0 0 40px black inset;
+}
+.info{
+    border-radius: 30px;
+    margin: auto;
+    background-color: rgba(0, 255, 255, 0.877);
+    width: 70%;
+    font-size: 20px;
+}
+.images{
+    height: auto;
+    width: 80%;
+}
+#ubi{
+    display: none;
+}
+#hist{
+    display: none;
+}
+#leng{
+    display: none;
+}
+#cre{
+    display: none;
+}
+#soci{
+    display: none;
+}
+#tra{
+    display: none;
+}
+#com{
+    display: none;
+}
+#tit{
+    font-weight: bold;
+    font-family: Cambria;
+    color: black;
+    font-size: 30px;
+}
+#tem{
+    font-weight: bold;
+    font-family: Cambria;
+    font-size: 15px;
+}
+footer{
+    margin-top: 20px;
+    background-color: aqua;
+}
+.links{
+    background-color: rgb(0, 204, 255);
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Segoe UI;
+    margin: 10px;
+}
+
+#f{
+    height: auto;
+    width: 50%;
+}
+.form{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 30px;
+    color: #383131fd;
+}
+.opc{
+    width: auto;
+    text-align: center;
+    font-family: Impact;
+    font-size: 20px;
+    background-image: linear-gradient(45deg,rgb(64, 179, 214) 10%, rgb(0, 119, 255) 100%);
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: purple;
+}
+#Env{
+    width: 15%;
+    text-align: center;
+    font-family: Haettenschweiler;
+    font-size: 20px;
+    background-image: linear-gradient(200deg, rgb(64, 179, 214) 10%, rgb(0, 119, 255) 100%);
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: purple;
+    cursor: pointer;
+    transition: box-shadow 0.6seg ease-in-out;
+}
+#env:hover{
+    box-shadow: 0 0 40px 10px purple;
+}
+#ff{
+    margin: auto;
+    width: 400px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.date{
+    font-size: 15px;
+}
